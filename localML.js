@@ -1,9 +1,5 @@
 import { AmazonConnectApp } from "@amazon-connect/app";
 
-// Configure logic around the hand pose
-handPoseUpdate = function(hands) {
-    handIndicator.innerHTML = hands && hands.length ? hands[0].score : 0;
-}
 
 const { connectApp } = AmazonConnectApp.init({
     onCreate: (event) => {
