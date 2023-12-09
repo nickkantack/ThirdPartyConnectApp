@@ -1,0 +1,16 @@
+{
+  "name": "thirdpartyconnectapp",
+  "version": "1.0.0",
+  "description": "Basic agent workspace third party app for testing local machine learning models as well as distributed computing across peers",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kantackn",
+  "license": "ISC",
+  "dependencies": {
+    "@amazon-connect/app": "^1.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
